@@ -1,0 +1,59 @@
+body {
+     background-color: #fdf5e6;
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+
+#colorBar {
+     background-color: #FFFF00;
+     position: absolute;
+     transform: rotateZ(20deg);
+     width: 30vw;
+     left: -20%;
+     top: -20%;
+     height: 200vh;
+}
+
+#container {
+     position: absolute;
+     font-size: 2rem;
+     top: 50%;
+     left: 30%;
+}
+
+form {
+     font-size: 2rem;
+     color: #000000;
+}
+
+input[type=text] {
+     font-size: 4rem;
+     background-color: rgba(0, 0, 0, 0);
+     height: 50px;
+     width: 35%;
+     border: 0px solid #FFFF00;
+     border-bottom: 5px solid #000000;
+}
+
+input[type=text]:focus {
+     outline: none;
+}
+
+input::placeholder {
+     color: rgb(160, 160, 160)
+}
+
+::selection {
+     background: #FFFF00;
+}
+
+#hashtag {
+     position: relative;
+     opacity: 0.09;
+     font-size: 15rem;
+     transform: translate(-90px,-450px);
+     z-index: -10;
+}
